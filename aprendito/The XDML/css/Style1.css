@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@500&display=swap');
+@use 'three-dots';
+
+body {
+	margin: auto;
+	background-color: #ffffff;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* Inicio */
+.CST:hover {
+	animation: reverse;
+	transition-property: all;
+}
+
+.text-inicio {
+	font-family: sans-serif;
+	text-align: center;
+	color: #ffffff;
+	font-weight: 900;
+	font-size: 300%;
+	animation-name: swivel-vertical;
+}
+
+header {
+	width: 100%;
+	padding: 0;
+}
+
+.nav1 {
+	margin-left: -95px;
+}
+
+.user_img {
+	width: 50px;
+	filter: invert(1);
+	margin-top: -14px;
+	border: solid black;
+	border-radius: 50px;
+}
+
+.nombre_nav {
+	font-weight: 900;
+	font-family: system-ui;
+	font-size: 40px;
+	margin-top: -19px;
+	color: #ffffff;
+}
+
+.menu_bar {
+	display: none;
+}
+
+header nav ul {
+	list-style: none;
+	margin: 0;
+}
+
+header nav ul li {
+	float: left;
+	margin-left: 6%;
+	padding-top: 20px;
+	margin-top: 15px;
+}
+
+header nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+header nav ul li span {
+	margin-left: 0px;
+	position: static;
+}
+
+header nav ul li a:hover {
+	color: red;
+	border-radius: 70px;
+	margin: 0;
+}
+
+@media screen and (max-width:800px) {
+	header nav {
+		width: 80%;
+		height: 100%;
+		left: -100%;
+		margin: 0;
+		position: fixed;
+		-webkit-backdrop-filter: blur(10px);
+		backdrop-filter: blur(10px);
+	}
+
+	header nav ul li {
+		display: block;
+		float: none;
+		border-bottom: 1px solid rgba(255, 255, 255, .3);
+	}
+
+	.menu_bar {
+		display: block;
+		width: 100%;
+		background: #ccc;
+	}
+
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 20px;
+		background: #024959;
+		color: #fff;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 25px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.menu_bar span {
+		float: right;
+		font-size: 40px;
+	}
+}
+
+.inicio {
+	padding-top: 361px;
+	padding-bottom: 310px;
+	background: url(../img/imajen_inicio.jpg);
+}
+
+.fill_input {
+	filter: contrast;
+}
+
+/* About */
+.about_inicio {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.about-title {
+	text-align: center;
+	padding-top: 5%;
+}
+
+.section-description {
+	line-height: 26px;
+}
+
+/* Creador */
+.section-description {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.creador_img {
+	width: 200px;
+	border-radius: 100px;
+}
+
+.creador_ft_1 {
+	width: 30%;
+	border-radius: 10px;
+	padding-left: 536px;
+	padding-right: 100px;
+}
+
+.nombre_img_creador {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-align: center;
+	font-size: 50px;
+}
+
+/* Subscribe Section */
+#subscribe {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/subscribe-bg.jpg) fixed center center;
+	background-size: cover;
+	padding: 80px 0;
+	text-align: center;
+}
+
+#subscribe .subscribe-title {
+	color: #fff;
+	font-size: 28px;
+	font-weight: 700;
+}
+
+#subscribe .subscribe-text {
+	color: #fff;
+}
+
+#subscribe .subscribe-btn-container {
+	text-align: center;
+	padding-top: 20px;
+}
+
+#subscribe .subscribe-btn {
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 8px 20px;
+	border-radius: 2px;
+	transition: 0.5s;
+	margin: 10px;
+	border: 2px solid #fff;
+	color: #fff;
+	text-decoration: none;
+}
+
+#subscribe .subscribe-btn:hover {
+	background: #03C4EB;
+	border: 2px solid #03C4EB;
+}
+
+/* Portafolio */
+.section-title {
+	container: 500;
+}
+
+.section-description {
+	margin-right: 10%;
+	margin-left: 10%;
+	justify-content: center;
+}
+
+.logos_portafolio {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.logo_facebook {
+	width: 100px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.logo_gmail {
+	width: 100px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.logo_github {
+	width: 100px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+/* Footer */
+#footer {
+	padding: 30px 0;
+	color: #fff;
+}
+
+#footer .copyright {
+	text-align: center;
+}
+
+#footer .credits {
+	padding-top: 10px;
+	text-align: center;
+	font-size: 13px;
+	color: #ccc;
+}
+
+.subscribe-section {
+	text-align: center;
+}

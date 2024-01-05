@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+	background-image: url(/img/imajen_inicio.jpg);
+    fill-opacity: 0;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.caaja-1{
+    display: flex;
+}
+.text-1{
+display: flex;
+
+}
+.h1-caja-1{
+    margin-left: 8em;
+     
+    font-size: 50px;
+    display: flex;
+}

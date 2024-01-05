@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Plantillas Web - Editables 100% - ProOnliPc_Tutoriales/PlantillaWeb1-Suscribete/ProOnliPc"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "WEB"
+	}
+}

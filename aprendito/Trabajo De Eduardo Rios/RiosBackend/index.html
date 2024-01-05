@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title> Rios Backend</title>
+    <link rel="icon" href="IMGS/logo-head.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/contacto/index.html">
+    <script src="https://kit.fontawesome.com/b408879b64.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="brand">
+                    <img src="IMGS/logo-web.png" alt="" class="logo-img">
+                </div>
+                <ul class="menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="#serv">Servicios</a></li>
+                    <li><a href="#footer">Clientes</a></li>
+                    <li><a href="contacto/index.html">Contactanos</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <div></div>
+        <main class="main" id="inicio">
+            <div class="info-content">
+                <h1>Soluciones que apoyan <br> las decisiones
+                    empresariales<span class="typed"></span></h1>
+                <p class="info_inicio"> <i>Con control tu negocio </i> <B>
+                        CRECE </B>
+                </p>
+
+            </div>
+        </main>
+
+    </div>
+    <section class="separator" id="serv">
+
+    </section>
+    <section class="section-target">
+        <div class="scrolling-buttons-container" id="clientes">
+            <span id="scrolling-button-left">&#60</span>
+            <span id="scrolling-button-right">&#62</span>
+        </div>
+        <h1 class="servicios-h1">Nuestros <i> <u> Servicios </u> </i></h1>
+        <p class="p-servicios">Rios Backend ayuda a los clientes a crear valor, nuestros servicios y soluciones ofrecen
+            confianza a través de la garantía y ayudan a los clientes a ahorrar, crecer y operar.</p>
+
+        <div class="icon-services"><img src="/oo/IMGS/services.png" alt=""></div>
+        <div class="scrolling-container" style="    background-color: #e4e4e4;">
+
+            <div class="lineal"></div>
+            <a href="servicios/servicio1.html">
+                <div class="scrolling-card" id="card1">
+                    <h2 class="title_target">ASESORÍA <br> CONTABLES</h2>
+                </div>
+            </a>
+            <a href="servicios/servicio2.html">
+                <div class="scrolling-card" id="card2">
+                    <h2 class="title_target">ASESORÍA <br> TRIBUTARIA</h2>
+                </div>
+            </a>
+            <a href="servicios/servicio3.html">
+                <div class="scrolling-card" id="card3">
+                    <h2 class="title_target">ASESORÍA <br> LABORAL</h2>
+                </div>
+            </a>
+            <a href="servicios/servicio4.html">
+                <div class="scrolling-card" id="card4">
+                    <h2 class="title_target">ASESORÍA Y <br>
+                        CUMPLIMIENTOS
+                    </h2>
+                </div>
+            </a>
+
+        </div>
+        <section class="separator">
+
+        </section>
+    </section>
+    <script>const rightBtn = document.querySelector("#scrolling-button-right");
+        const leftBtn = document.querySelector("#scrolling-button-left");
+
+        const content = document.querySelector(".scrolling-container");
+
+        rightBtn.addEventListener("click", () => {
+            content.scrollLeft += 600;
+        });
+
+        leftBtn.addEventListener("click", () => {
+            content.scrollLeft -= 600;
+        });
+    </script>
+    <div style="    background-color: #e4e4e4;">
+        <section id="clientes">
+            <section>
+                <center>
+                    <h1 class="h1-clientes">Nuestros Clientes</h1>
+                    <div class="slider">
+                        <div class="slide-track">
+                            <div class="slide">
+                                <img src="IMGS/clientes1.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="IMGS/clientes2.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="IMGS/clientes3.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="IMGS/clientes4.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="IMGS/clientes5.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="IMGS/clientes6.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="IMGS/clientes1.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="IMGS/clientes2.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="IMGS/clientes3.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="IMGS/clientes4.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="IMGS/clientes5.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="IMGS/clientes6.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="IMGS/clientes1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+    </div>
+    </center>
+    </section>
+    </div>
+    </div>
+    <section class="separator">
+
+    </section>
+    <div>
+        <footer class="footer" id="footer">
+            <img src="IMGS/logo-web.png" alt="" class="footer_img">
+            <div class="data">
+                <p><i class="fa-solid fa-phone"></i> +57 320 633 6531</p>
+                <p><i class="fa-solid fa-envelope"></i>erios@riosbackend.com</p>
+                <p><i class="fa-solid fa-location-dot"></i>CR 26 CL 14-90 BLOQ AP 201 El Recreo Turbaco Bolivar</p>
+            </div>  
+
+        </footer>
+        <div class="container" id="footer_img2">
+            <div class="box-info">
+     
+                <div class="links">
+
+                </div>
+            </div>
+
+        </div>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="menu.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+        <div class="go-top-container">
+            <div class="go-top-button">
+                <i class="fas fa-chevron-up" class="img-up"> </i>
+            </div>
+        </div>
+        <script>
+            window.onscroll = function () {
+                console.log(document.documentElement.scrollTop);
+                if (document.documentElement.scrollTop > 100) {
+                    document.querySelector('.go-top-container').classList.add('show');
+
+                }
+                else {
+                    document.querySelector('.go-top-container').classList.remove('show');
+                }
+            }
+
+            document.querySelector('.go-top-container').addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        </script>
+</body>
+
+</head>
